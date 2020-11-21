@@ -1,5 +1,5 @@
 import numpy as np
-from custo_reglin_uni import custo_reglin_uni
+from codigos.custo_reglin_uni import custo_reglin_uni
 
 def gd_reglin_uni(X, y, alpha, epochs, theta = np.array([0,0], ndmin = 2).T):
 
