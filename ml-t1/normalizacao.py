@@ -9,4 +9,4 @@ def normalizar_caracteristica(X):
     # Incluir o valor de 1 em x, pois theta0 = 1
     X_norm = np.c_[np.ones((X_norm.shape[0], 1)), X_norm]
 
-    return X_norm
+    return X_norm, mean_X, std_X

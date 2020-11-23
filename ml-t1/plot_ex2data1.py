@@ -26,7 +26,7 @@ def importarDados(insertOnes=True, filepath='/data/ex2data1.txt', names=['Prova 
 
     return data, X, y
 
-def plot(data, filename = 'target/plot3.1.png'):
+def plot(data, filename = 'target/plot4.1.png'):
 
     # gerando o grafico de dispersao para analise preliminar dos dados
 
