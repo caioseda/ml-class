@@ -31,8 +31,8 @@ def plot(data, filename = 'target/plot3.1.png'):
     ax.scatter(positivo['Teste 1'], positivo['Teste 2'], s=50, c='k', marker='+', label='Aceito')
     ax.scatter(negativo['Teste 1'], negativo['Teste 2'], s=50, c='y', marker='o', label='Nao Aceito')
     ax.legend()
-    ax.set_xlabel('Resultado do Teste 1')
-    ax.set_ylabel('Resultado do Teste 2')
+    ax.set_xlabel('Resultado do Teste 1', fontsize=14)
+    ax.set_ylabel('Resultado do Teste 2', fontsize=14)
     if not os.path.exists(os.path.dirname(filename)):
         os.makedirs(os.path.dirname(filename))
 

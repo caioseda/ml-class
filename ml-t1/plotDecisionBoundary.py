@@ -27,7 +27,6 @@ def plot(data, theta):
 
     plot_ex2data2.plot(data)
     plt.contour(T1, T2, Z, levels=[0], linewidths=2, colors='g',alpha=0.8)
-    # plt.contourf(T1, T2, Z, levels=[np.min(Z), 0.5, np.max(Z)], cmap='Greens', alpha=0.4)
 
 
 def predict(X, theta):
